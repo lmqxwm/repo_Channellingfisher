@@ -4,11 +4,6 @@ library(stringr)
 library(VGAM)
 library(nnet)
 
-# setwd("/Users/aurora/Desktop/My_files/Uchi/randomization/files")
-# paper = "AFGH"
-# setwd(paste("/Users/aurora/Desktop/My_files/Uchi/randomization/files/",
-#             paper, sep=""))
-
 data = read_dta("AER-2008-1240_R1_AbelerFalkGoetteHuffman2009_data_file.dta")
 data = dummy_cols(data, c("controls_temperature", "controls_time_of_day")) # make dummy vars
 colnames(data)[(ncol(data)-5):ncol(data)] = c("CT1", "CT2", "CT3", "CTD1", "CTD2", "CTD3")
