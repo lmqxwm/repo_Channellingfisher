@@ -1,4 +1,4 @@
 # repo_Channellingfisher
-Reproduction of generating randomization-t and randomization-c for one paper.
+Reproduction of randomization-t and randomization-c from one paper.
 
-Original paper: CHANNELLING FISHER: RANDOMIZATION TESTS AND THE STATISTICAL INSIGNIFICANCE OF SEEMINGLY SIGNIFICANT EXPERIMENTAL RESULT
+Original paper: Channeling Fisher: Randomization Tests and the Statistical Insignificance of Seemingly Significant Experimental Results, https://doi.org/10.1093/qje/qjy029
